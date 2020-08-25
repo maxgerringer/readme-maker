@@ -18,6 +18,7 @@ function generateMarkdown(data, github) {
   - [License](#License)
   - [Contributors](#Contributors)
   - [Tests](#Tests)
+  - [Development](#Development)
   - [Contact Author](#Contact)
 
   ## Repository
@@ -44,6 +45,10 @@ function generateMarkdown(data, github) {
 
   ${data.tests}
 
+  ## Development
+
+  ${data.development}
+
   ## Contact Author
 
   - <${github.email}>
@@ -51,6 +56,6 @@ function generateMarkdown(data, github) {
   - [GitHub Profile](${github.profile})
 
 `;
-}
+};
 
 module.exports = generateMarkdown;
