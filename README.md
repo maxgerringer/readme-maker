@@ -6,7 +6,7 @@
 
   ## Description
 
-  Generate a good README.md file with a CLI application.
+  When creating an open source project on GitHub, it is important to have a quality README with information about the app--what is the app for, how to use the app, how to install it, how to report issues, and how to make contributions so that other developers are more likely to use and contribute to the success of the project. This command-line application allows for quick and easy generation of a project README allowing a project creator to spend more time working on finishing the project and less time creating a good README.
 
   ## Table of Contents
 
@@ -16,7 +16,7 @@
   - [License](#License)
   - [Contributors](#Contributors)
   - [Tests](#Tests)
-  - [Development](#Development)
+  - [Future Development](#Development)
   - [Contact Author](#Contact)
 
   ## Repository
@@ -25,11 +25,15 @@
 
   ## Installation
 
-  Run npm install
+  Begin by installing the package dependencies:
+
+             npm install
 
   ## Usage
 
-  Run node index.js
+  Execute the application with this command: 
+
+             node index.js
 
   ## License
 
@@ -45,11 +49,11 @@
 
   ## Development
 
-  Add function to generate unique badges based on user input.
+  Add functionality to generate unique badges based on user input.
 
   ## Contact Author
 
-  - <null>
+  - <max.gerringer@gmail.com>
   - Max R. Gerringer
   - [GitHub Profile](https://github.com/maxgerringer)
 
