@@ -60,5 +60,5 @@
 
   ## Demo
 
-  ![Demo Gif](./assets/images/README.md-in-cation.gif)
+  ![Demo Gif](./assets/images/readme-in-action.gif)
 
