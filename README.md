@@ -18,6 +18,7 @@
   - [Tests](#Tests)
   - [Future Development](#Development)
   - [Contact Author](#Contact)
+  - [See it in Action](#Demo)
 
   ## Repository
 
@@ -51,9 +52,13 @@
 
   Add functionality to generate unique badges based on user input.
 
-  ## Contact Author
+  ## Contact
 
   - <max.gerringer@gmail.com>
   - Max R. Gerringer
   - [GitHub Profile](https://github.com/maxgerringer)
+
+  ## Demo
+
+  ![Demo Gif](./assets/images/README.md-in-cation.gif)
 
