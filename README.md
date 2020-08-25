@@ -1,12 +1,12 @@
 
   
-  # **README or else!**
+  # **README.md Generator**
 
   ![My badge](https://img.shields.io/badge/Created%20by-%40maxgerringer-blue)
 
   ## Description
 
-  Generate a good README.md file with a CLI.
+  Generate a good README.md file with a CLI application.
 
   ## Table of Contents
 
@@ -21,7 +21,7 @@
 
   ## Repository
 
-  - [Project Repo](maxgerringer.github.io)
+  - [Project Repo](https://github.com/maxgerringer/readme-maker)
 
   ## Installation
 
@@ -50,6 +50,6 @@
   ## Contact Author
 
   - <null>
-  - Max Gerringer
-  - [GitHub Profile](undefined)
+  - Max R. Gerringer
+  - [GitHub Profile](https://github.com/maxgerringer)
 
