@@ -15,19 +15,19 @@ const questions = [
       type: "input",
       name: "repo",
       message: "Provide the link to your repo: ",
-      default: "maxgerringer.github.io",
+      default: "https://github.com/maxgerringer/readme-maker",
    },
    {
       type: "input",
       name: "title",
       message: "What is the title of your project/repo? ",
-      default: "README or else!",
+      default: "README.md Generator",
    },
    {
       type: "input",
       name: "description",
       message: "Describe your project: ",
-      default: "Generate a good README.md file with a CLI.",
+      default: "Generate a good README.md file with a CLI application.",
    },
    {
       type: "input",
@@ -63,18 +63,14 @@ const questions = [
       type: "input",
       name: "development",
       message: "Describe future development of this application/repo: ",
-      default: 
-   }
+      default: "Add function to generate unique badges based on user input."
+   },
    {
       type: "input",
-      name: "bagdge",
+      name: "badge",
       message: "Add a unique badge to your README (copy the link here): ",
       default: "![My badge](https://img.shields.io/badge/Created%20by-%40maxgerringer-blue)"
    },
-
-
-   
-
 ];
 
 function writeToFile(fileName, data) {
@@ -92,7 +88,7 @@ function init() {
             const github= {
                email: res.data.email,
                name: res.data.name,
-               profile: res.data.profile,
+               profile: res.data.html_url,
             };
             writeToFile("README.md", markdown(data, github));
          });
