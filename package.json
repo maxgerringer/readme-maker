@@ -1,7 +1,7 @@
 {
   "name": "static-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "Generate a good README with this CLI tool",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.20.0",
+    "dotenv": "^8.2.0",
     "inquirer": "^6.3.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxgerringer/readme-maker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxgerringer/readme-maker/issues"
+  },
+  "homepage": "https://github.com/maxgerringer/readme-maker#readme"
 }
